@@ -59,12 +59,7 @@ export default Ember.Service.extend({
 
 ### Accessing Services
 
-To access a service,
-you can inject it in any container-resolved object such as a component or another service using the `Ember.inject.service` function.
-There are 2 ways to use this function.
-You can either invoke it with no arguments, or you can pass it the registered name of the service.
-When no arguments are passed the services are loaded based in the name of the variable key.
-You can load the shopping cart service with no arguments like below.
+To access a service, you can inject it in any container-resolved object such as a component or another service using the `Ember.inject.service` function. There are 2 ways to use this function. You can either invoke it with no arguments, or you can pass it the registered name of the service. When no arguments are passed the services are loaded based in the name of the variable key. You can load the shopping cart service with no arguments like below.
 
 ```app/components/cart-contents.js
 export default Ember.Component.extend({
